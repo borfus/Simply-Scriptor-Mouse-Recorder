@@ -24,7 +24,7 @@ int main()
         {
             if (!pressed)
             {
-                printf("left_click()\n");
+                printf("left_click\n");
                 pressed = true;
             }
         }
