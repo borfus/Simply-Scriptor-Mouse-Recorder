@@ -35,6 +35,7 @@ int main()
         {
             pressed = false;
         }
+		Sleep(10);
     }
 
     return 0;
