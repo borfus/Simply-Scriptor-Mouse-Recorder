@@ -27,6 +27,38 @@ int main()
                 pressed = true;
             }
         }
+        else if (GetKeyState(VK_F4) & 0x8000)
+        {
+            if (!pressed)
+            {
+                printf("double_click\n");
+                pressed = true;
+            }
+        }
+        else if (GetKeyState(VK_F5) & 0x8000)
+        {
+            if (!pressed)
+            {
+                printf("right_click\n");
+                pressed = true;
+            }
+        }
+        else if (GetKeyState(VK_F6) & 0x8000)
+        {
+            if (!pressed)
+            {
+                printf("left_click_hold\n");
+                pressed = true;
+            }
+        }
+        else if (GetKeyState(VK_F7) & 0x8000)
+        {
+            if (!pressed)
+            {
+                printf("left_click_release\n");
+                pressed = true;
+            }
+        }
         else if (GetKeyState(VK_ESCAPE) & 0x8000)
         {
             break;
