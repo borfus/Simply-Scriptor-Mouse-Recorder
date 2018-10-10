@@ -3,9 +3,13 @@ Mouse Recorder is a 'recording' tool that automatically generates mouse commands
 
 ## Instructions
 
+Run Mouse Recorder and press keys F2 - F7 to print a command or ESC to quit the program.
+
 Mouse Recorder uses standard output and you will get more use out of it when running it through the command prompt or a bash shell.
 
 You can redirect the output to a text file `"Mouse Recorder.exe" > example.txt`
+
+## Controls
 
 ```
 F2  -  move_mouse(x,y)
