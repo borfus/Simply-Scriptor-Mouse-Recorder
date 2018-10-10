@@ -31,7 +31,7 @@ int main()
         {
             if (!pressed)
             {
-                printf("double_click\n");
+                printf("right_click\n");
                 pressed = true;
             }
         }
@@ -39,7 +39,7 @@ int main()
         {
             if (!pressed)
             {
-                printf("right_click\n");
+                printf("double_click\n");
                 pressed = true;
             }
         }
