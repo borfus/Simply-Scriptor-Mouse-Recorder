@@ -15,7 +15,7 @@ int main()
         {
             if (!pressed)
             {
-                printf("move_mouse(%i, %i)\n", cursor.x, cursor.y);
+                printf("move_mouse(%i,%i)\n", cursor.x, cursor.y);
                 pressed = true;
             }
         }
