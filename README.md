@@ -1,7 +1,7 @@
 # Mouse Recorder
 Mouse Recorder is a 'recording' tool that automatically generates mouse commands used for [Simply Scriptor.](https://github.com/borfus/Simply-Scriptor)
 
-##Instructions
+## Instructions
 
 Mouse Recorder uses standard output and you will get more use out of it when running it through the command prompt or a bash shell.
 
