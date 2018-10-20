@@ -59,6 +59,14 @@ int main()
                 pressed = true;
             }
         }
+		else if (GetKeyState(VK_F8) & 0x8000)
+        {
+            if (!pressed)
+            {
+                printf("mouse_wheel_click\n");
+                pressed = true;
+            }
+        }
         else if (GetKeyState(VK_ESCAPE) & 0x8000)
         {
             break;

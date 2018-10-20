@@ -18,5 +18,6 @@ F4  -  right_click
 F5  -  double_click
 F6  -  left_click_hold
 F7  -  left_click_release
+F8  -  mouse_wheel_click
 ESC -  Quit
 ```
